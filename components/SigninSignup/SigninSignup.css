@@ -110,3 +110,32 @@
     background: #1ca19a;
     color:white;
 }
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
