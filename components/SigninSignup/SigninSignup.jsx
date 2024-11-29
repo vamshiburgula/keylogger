@@ -48,7 +48,7 @@ const SigninSignup = () => {
 
   const handleSignUp = () => {
     if (validateForm()) {
-      console.log("Sign Up successful:", { username, email, password });
+      alert("Sign Up successful:", { username, email, password });
       // Add Sign Up API call or processing logic here
     }
   };
